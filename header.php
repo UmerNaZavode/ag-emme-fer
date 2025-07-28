@@ -13,7 +13,7 @@
   <div class="wrapper">
     <?php
     $header = get_field('header', 'option');
-    $logo = $header['logo'];
+    $logo = $header['logo']['url'];
     ?>
     <header class="main-header">
       <div class="logo">
