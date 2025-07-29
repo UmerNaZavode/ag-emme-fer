@@ -110,6 +110,36 @@
                                 "parent_repeater": "field_jexxifucq4o3s"
                             }
                         ]
+                    },
+                    {
+                        "key": "field_mvsstipve4geu",
+                        "label": "Button Text",
+                        "name": "button_text",
+                        "type": "text",
+                        "instructions": "",
+                        "required": true,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": 50,
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": ""
+                    },
+                    {
+                        "key": "field_itq0jporppm9v",
+                        "label": "Button Url",
+                        "name": "button_url",
+                        "type": "text",
+                        "instructions": "",
+                        "required": true,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": 50,
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": ""
                     }
                 ]
             }

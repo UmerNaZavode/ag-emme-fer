@@ -14,6 +14,8 @@
     <?php
     $header = get_field('header', 'option');
     $logo = $header['logo']['url'];
+    $button_text = $header['button_text'];
+    $button_url = $header['button_url'];
     ?>
     <header class="main-header">
       <div class="logo">
@@ -45,6 +47,10 @@
         'depth'           => 0,
         'walker'         => '',
       ]); ?>
+
+      <button class="main-header__button btn">
+        <a href="<?php echo $button_url; ?>" class="btn__link"><?php echo $button_text; ?></a>
+      </button>
 
       <div class="main-header__sandwich sandwitch-wrap" id="js-sandwitch-wrap">
         <div class="sandwitch">

@@ -1,3 +1,22 @@
 .btn {
-  color: #fff;
+  display: inline-flex;
+  padding: 1.2rem 3rem;
+  justify-content: center;
+  align-items: center;
+  transform: skew(25deg);
+  border: 0.05rem solid var(--accent);
+  background: var(--accent);
+
+  &__link {
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    letter-spacing: -0.28px;
+    transform: skew(-30deg);
+    color: #0d0d0d;
+  }
+
+  &--small {
+
+  }
 }
