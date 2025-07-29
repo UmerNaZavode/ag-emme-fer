@@ -415,6 +415,161 @@
                         ]
                     }
                 ]
+            },
+            {
+                "key": "field_uasmx9j7x1v4i",
+                "label": "Masters",
+                "name": "masters",
+                "type": "tab",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 100,
+                    "class": "",
+                    "id": ""
+                },
+                "message": "",
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_kdkfubm6j0nln",
+                "label": "Masters",
+                "name": "masters",
+                "type": "group",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 100,
+                    "class": "",
+                    "id": ""
+                },
+                "message": "",
+                "layout": "block",
+                "sub_fields": [
+                    {
+                        "key": "field_9gaxh2ksvg8fm",
+                        "label": "Bg Image",
+                        "name": "bg_image",
+                        "type": "image",
+                        "instructions": "",
+                        "required": true,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": 50,
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": ""
+                    },
+                    {
+                        "key": "field_efh13jm0ydbd6",
+                        "label": "Image",
+                        "name": "image",
+                        "type": "image",
+                        "instructions": "",
+                        "required": true,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": 50,
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": ""
+                    },
+                    {
+                        "key": "field_nzsu75kh9vz1b",
+                        "label": "Title",
+                        "name": "title",
+                        "type": "text",
+                        "instructions": "",
+                        "required": true,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": 50,
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": ""
+                    },
+                    {
+                        "key": "field_ftxzyeyjnv1qr",
+                        "label": "Subtitle",
+                        "name": "subtitle",
+                        "type": "text",
+                        "instructions": "",
+                        "required": true,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": 50,
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": ""
+                    },
+                    {
+                        "key": "field_sn5mkqqbfetdb",
+                        "label": "Description Left",
+                        "name": "description_left",
+                        "type": "wysiwyg",
+                        "instructions": "",
+                        "required": true,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": 50,
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": ""
+                    },
+                    {
+                        "key": "field_i75dswmvqnull",
+                        "label": "Description Right",
+                        "name": "description_right",
+                        "type": "wysiwyg",
+                        "instructions": "",
+                        "required": true,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": 50,
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": ""
+                    },
+                    {
+                        "key": "field_budzfcjbakhtj",
+                        "label": "Button Text",
+                        "name": "button_text",
+                        "type": "text",
+                        "instructions": "",
+                        "required": true,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": 50,
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": ""
+                    },
+                    {
+                        "key": "field_g3cj2qqhpmexj",
+                        "label": "Button Url",
+                        "name": "button_url",
+                        "type": "text",
+                        "instructions": "",
+                        "required": true,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": 50,
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": ""
+                    }
+                ]
             }
         ],
         "location": [

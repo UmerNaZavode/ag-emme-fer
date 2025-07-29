@@ -12,11 +12,27 @@
     font-weight: 700;
     line-height: 1.8rem;
     letter-spacing: -0.28px;
-    transform: skew(-30deg);
+    transform: skew(-25deg);
     color: #0d0d0d;
   }
 
   &--small {
-
+    position: relative;
+    width: 56px;
+    height: 42px;
+    &::before,
+    &::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      translate: 0 -50%;
+      right: 50%;
+      width: 0.2rem;
+      height: 1.8rem;
+      background-color: #0d0d0d;
+    }
+    &::after {
+      rotate: 90deg;
+    }
   }
 }

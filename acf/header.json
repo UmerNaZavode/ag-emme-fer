@@ -115,6 +115,7 @@
                         "key": "field_mvsstipve4geu",
                         "label": "Button Text",
                         "name": "button_text",
+                        "aria-label": "",
                         "type": "text",
                         "instructions": "",
                         "required": true,
@@ -124,12 +125,18 @@
                             "class": "",
                             "id": ""
                         },
-                        "message": ""
+                        "message": "",
+                        "default_value": "",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": ""
                     },
                     {
                         "key": "field_itq0jporppm9v",
                         "label": "Button Url",
                         "name": "button_url",
+                        "aria-label": "",
                         "type": "text",
                         "instructions": "",
                         "required": true,
@@ -139,7 +146,12 @@
                             "class": "",
                             "id": ""
                         },
-                        "message": ""
+                        "message": "",
+                        "default_value": "",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": ""
                     }
                 ]
             }
