@@ -34,5 +34,10 @@
     letter-spacing: -0.128rem;
     margin-top: 3.2rem;
     text-transform: uppercase;
+
+    @media screen and (max-width: 576px) {
+      font-size: 5rem;
+      margin-top: 2rem;
+    }
   }
 }
