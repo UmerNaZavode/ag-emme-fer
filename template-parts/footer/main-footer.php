@@ -6,11 +6,15 @@ $seccond_phone = $footer['seccond_phone'];
 $email = $footer['email'];
 $address = $footer['address'];
 $hours = $footer['hours'];
+$copyright = $footer['copyright'];
+$copyright_phone = $footer['copyright_phone'];
+$chosen = $footer['chosen'];
+$partner = $footer['partner'];
 // $adress_url = $footer['adress_url'];
 // $full_company_name = $footer['full_company_name'];
 // $short_company_name = $footer['short_company_name'];
 // $vat = $footer['vat'];
-// $partner_url = $footer['partner_url'];
+$partner_url = $footer['partner_url'];
 // $partner_logo = $footer['partner_logo'];
 ?>
 <div class="footer-top">
@@ -27,17 +31,17 @@ $hours = $footer['hours'];
         <li class="footer-top__item">
           <div class="footer-top__inner">
             <div class="footer-top__label">Telefono</div>
-            <a href="<?php echo clear_phone($first_phone); ?>" target="_blank" class="footer-top__link"><?php echo $first_phone; ?></a>
+            <a href="tel:<?php echo clear_phone($first_phone); ?>" target="_blank" class="footer-top__link"><?php echo $first_phone; ?></a>
           </div>
           <div class="footer-top__inner">
-            <div class="footer-top__label">Indirezzo</div>
-            <a href="<?php echo clear_phone($seccond_phone); ?>" target="_blank" class="footer-top__link"><?php echo $seccond_phone; ?></a>
+            <div class="footer-top__label">Telefono</div>
+            <a href="tel:<?php echo clear_phone($seccond_phone); ?>" target="_blank" class="footer-top__link"><?php echo $seccond_phone; ?></a>
           </div>
         </li>
         <li class="footer-top__item">
           <div class="footer-top__inner">
             <div class="footer-top__label">Email</div>
-            <a target="_blank" class="footer-top__link"><?php echo $address; ?></a>
+            <a href="mailto:<?php echo $email; ?>" target="_blank" class="footer-top__link"><?php echo $email; ?></a>
           </div>
           <div class="footer-top__inner">
             <div class="footer-top__label">Orari di apertura</div>
@@ -49,5 +53,34 @@ $hours = $footer['hours'];
   </div>
 </div>
 <div class="main-footer">
-
+  <div class="main-footer__wrap container">
+    <div class="main-footer__left">
+      <div class="main-footer__copyright">
+        <?php echo $copyright; ?><a target="_blank" href="tel:<?php echo clear_phone($copyright_phone); ?>"><?php echo $copyright_phone; ?></a>
+      </div>
+      <div class="main-footer__partner">
+        <?php echo $chosen; ?><a target="_blank" href="<?php echo $partner_url; ?>"><?php echo $partner; ?></a>
+      </div>
+    </div>
+    <div class="main-footer__right">
+      <?php wp_nav_menu([
+        'theme_location'  => 'footer-menu',
+        'menu'            => '',
+        'container'       => '',
+        'container_class' => '',
+        'container_id'    => '',
+        'menu_class'      => 'footer-menu main-footer__footer-menu',
+        'menu_id'         => 'js-main-menu',
+        'echo'            => true,
+        'fallback_cb'     => 'wp_page_menu',
+        'before'          => '',
+        'after'           => '',
+        'link_before'     => '',
+        'link_after'      => '',
+        'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+        'depth'           => 0,
+        'walker'         => '',
+      ]); ?>
+    </div>
+  </div>
 </div>

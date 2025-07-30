@@ -1,2 +1,55 @@
 .main-footer {
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+    padding-block: 3.2rem 14rem;
+  }
+  &__left {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+    font-weight: 300;
+    letter-spacing: -0.026rem;
+    max-width: 96rem;
+    gap: 1.2rem;
+    opacity: 0.8;
+    color: #0d0d0d;
+  }
+  &__partner {
+    a {
+      font-size: 1.3rem;
+      font-weight: 500;
+      letter-spacing: -0.026rem;
+      text-decoration-line: underline;
+      text-decoration-style: solid;
+      text-decoration-skip-ink: auto;
+      text-decoration-thickness: auto;
+      text-underline-offset: auto;
+      text-underline-position: from-font;
+      color: #0d0d0d;
+    }
+  }
+  &__footer-menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.2rem 6.4rem;
+
+    li {
+      max-width: 17.6rem;
+
+      a {
+        font-size: 1.3rem;
+        font-weight: 500;
+        letter-spacing: -0.026rem;
+        opacity: 0.8;
+        color: #0d0d0d;
+        text-decoration-line: underline;
+        text-decoration-style: solid;
+        text-decoration-skip-ink: auto;
+        text-decoration-thickness: auto;
+        text-underline-offset: auto;
+        text-underline-position: from-font;
+      }
+    }
+  }
 }

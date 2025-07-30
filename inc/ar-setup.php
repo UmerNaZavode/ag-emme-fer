@@ -43,6 +43,7 @@ if (!function_exists('ar_starter_setup')) :
 		register_nav_menus(
 			array(
 				'menu-1' => esc_html__('Primary', 'ag-emme-fer'),
+				'footer-menu' => esc_html__('Footer Menu', 'ag-emme-fer'),
 			)
 		);
 
