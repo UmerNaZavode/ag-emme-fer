@@ -48,7 +48,7 @@
         'walker'         => '',
       ]); ?>
 
-      <button class="main-header__button btn">
+      <button class="main-header__button btn" type="button">
         <a href="<?php echo $button_url; ?>" class="btn__link"><?php echo $button_text; ?></a>
       </button>
 

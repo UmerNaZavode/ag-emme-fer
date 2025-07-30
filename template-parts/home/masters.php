@@ -25,7 +25,7 @@ $button_url = $masters['button_url'];
         <div class="masters__desription">
           <?php echo $description_right; ?>
         </div>
-        <button class="masters__button btn">
+        <button class="masters__button btn" type="button">
           <a href="<?php echo $button_url; ?>" class="masters__link btn__link"><?php echo $button_text; ?></a>
         </button>
       </div>
