@@ -40,4 +40,27 @@
       margin-top: 2rem;
     }
   }
+
+  &__button {
+    position: absolute;
+    right: 24rem;
+    bottom: 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    height: 4.2rem;
+    /* padding: 1.2rem 3rem; */
+    background: var(--accent);
+    border: 0.05rem solid var(--accent);
+    transform: rotate(90deg) skew(25deg);
+
+    span {
+      position: relative;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      transform: skew(-25deg);
+    }
+  }
 }

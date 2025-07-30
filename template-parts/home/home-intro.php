@@ -10,4 +10,5 @@ $image = $home_intro['image'];
     <h3 class="home-intro__label"><?php echo $label; ?></h3>
     <h2 class="home-intro__title"><?php echo $title; ?></h2>
   </div>
+  <button class="home-intro__button" type="button"><span><?php get_template_part('template-parts/icons/icon-arrow'); ?></span></button>
 </div>
