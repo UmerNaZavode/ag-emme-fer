@@ -1,47 +1,28 @@
 .btn {
   display: inline-flex;
-  padding: 1.2rem 3rem;
   justify-content: center;
   align-items: center;
-  transform: skew(25deg);
-  border: 0.05rem solid var(--accent);
+  padding: 1.2rem 3rem;
   background: var(--accent);
+  border: 0.05rem solid var(--accent);
+  transform: skew(25deg);
 
   &--alt {
-    border: 0.05rem solid #0d0d0d;
     background: #0d0d0d;
+    border: 0.05rem solid #0d0d0d;
   }
 
   &__link {
     font-size: 1.4rem;
     font-weight: 700;
-    line-height: 1.8rem;
-    letter-spacing: -0.28px;
-    transform: skew(-25deg);
     color: #0d0d0d;
+    transform: skew(-25deg);
+    letter-spacing: -0.28px;
+    line-height: 1.8rem;
 
     &--alt {
       color: var(--accent);
     }
   }
 
-  &--small {
-    position: relative;
-    width: 56px;
-    height: 42px;
-    &::before,
-    &::after {
-      content: '';
-      position: absolute;
-      top: 50%;
-      translate: 0 -50%;
-      right: 50%;
-      width: 0.2rem;
-      height: 1.8rem;
-      background-color: #0d0d0d;
-    }
-    &::after {
-      rotate: 90deg;
-    }
-  }
 }

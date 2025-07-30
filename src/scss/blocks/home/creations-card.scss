@@ -47,4 +47,29 @@
     letter-spacing: -0.048rem;
     text-transform: uppercase;
   }
+
+  &__button {
+    position: relative;
+    width: 56px;
+    height: 42px;
+
+    span {
+      transform: skew(-25deg);
+      &::before,
+      &::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        right: 50%;
+        width: 0.2rem;
+        height: 1.8rem;
+        background-color: #0d0d0d;
+        translate: 0 -50%;
+      }
+
+      &::after {
+        rotate: 90deg;
+      }
+    }
+  }
 }
