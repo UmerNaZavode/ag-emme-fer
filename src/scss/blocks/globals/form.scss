@@ -6,6 +6,10 @@
     display: grid;
     gap: 0.4rem;
     grid-template-columns: repeat(3, 1fr);
+
+    @media screen and (max-width: 576px) {
+      grid-template-columns: 1fr;
+    }
   }
 
   &__group {
@@ -28,7 +32,7 @@
       font-weight: 400;
       color: #0d0d0d;
 
-      /* height: 5.6rem; */
+      height: 5.9rem;
       background: #fff;
       border: none;
       transition: all 300ms ease-out;
@@ -55,10 +59,14 @@
       align-items: flex-start;
       height: 9.6rem;
       padding: 1.6rem 2.2rem;
+
+      @media screen and (max-width: 576px) {
+        height: 5.9rem;
+      }
     }
 
     &.form__group--textarea {
-      margin-bottom: 0.4rem;
+      /* margin-bottom: 0.4rem; */
 
       .wpcf7-not-valid-tip {
         bottom: 0;
@@ -88,6 +96,12 @@
 
     .btn {
       margin-right: 1rem;
+
+      @media screen and (max-width: 576px) {
+        margin-right: 0;
+        margin-left: 5rem;
+        margin-top: 0.4rem;
+      }
     }
   }
 

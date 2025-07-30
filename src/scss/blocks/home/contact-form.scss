@@ -4,7 +4,13 @@
 
   &__wrapper {
     display: flex;
-    justify-content: space-between;
+    gap: 9.6rem;
+    /* justify-content: space-between; */
+
+    @media screen and (max-width: 992px) {
+      flex-direction: column;
+      gap: 5rem;
+    }
   }
 
   &__right {
