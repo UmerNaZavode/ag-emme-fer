@@ -12,4 +12,8 @@
   &--light {
     color: #fff;
   }
+
+  @media screen and (max-width: 576px) {
+    font-size: 3.1rem;
+  }
 }
