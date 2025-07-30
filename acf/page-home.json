@@ -634,10 +634,11 @@
             {
                 "key": "field_c2csafpyr41pr",
                 "label": "Contact Form",
-                "name": "contact_form",
+                "name": "",
+                "aria-label": "",
                 "type": "tab",
                 "instructions": "",
-                "required": false,
+                "required": 0,
                 "conditional_logic": 0,
                 "wrapper": {
                     "width": 100,
@@ -652,6 +653,7 @@
                 "key": "field_3ijcmgtaglluw",
                 "label": "Contact Form",
                 "name": "contact_form",
+                "aria-label": "",
                 "type": "group",
                 "instructions": "",
                 "required": false,
@@ -668,6 +670,7 @@
                         "key": "field_owy8oqmfb5f1z",
                         "label": "Title",
                         "name": "title",
+                        "aria-label": "",
                         "type": "text",
                         "instructions": "",
                         "required": true,
@@ -677,7 +680,12 @@
                             "class": "",
                             "id": ""
                         },
-                        "message": ""
+                        "message": "",
+                        "default_value": "",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": ""
                     }
                 ]
             }

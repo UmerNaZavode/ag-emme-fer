@@ -39,10 +39,10 @@
                 "sub_fields": [
                     {
                         "key": "field_0f9wpevtkpdlmj61",
-                        "label": "Phone_number",
-                        "name": "phone_number",
+                        "label": "Logo",
+                        "name": "logo",
                         "aria-label": "",
-                        "type": "text",
+                        "type": "image",
                         "instructions": "",
                         "required": 0,
                         "conditional_logic": 0,
@@ -55,12 +55,22 @@
                         "maxlength": "",
                         "placeholder": "",
                         "prepend": "",
-                        "append": ""
+                        "append": "",
+                        "return_format": "array",
+                        "preview_size": "medium",
+                        "library": "all",
+                        "min_width": 0,
+                        "min_height": 0,
+                        "min_size": 0,
+                        "max_width": 0,
+                        "max_height": 0,
+                        "max_size": 0,
+                        "mime_types": ""
                     },
                     {
                         "key": "field_hhemlqnqi931u",
-                        "label": "Whatsapp",
-                        "name": "whatsapp",
+                        "label": "First Phone",
+                        "name": "first_phone",
                         "aria-label": "",
                         "type": "text",
                         "instructions": "",
@@ -79,6 +89,26 @@
                     },
                     {
                         "key": "field_hog1qyx85p9v2tgp",
+                        "label": "Seccond Phone",
+                        "name": "seccond_phone",
+                        "aria-label": "",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "33",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": ""
+                    },
+                    {
+                        "key": "field_wbru6z0hqwt3o",
                         "label": "Email",
                         "name": "email",
                         "aria-label": "",
@@ -99,28 +129,8 @@
                     },
                     {
                         "key": "field_psz9l81ooa6sgncj",
-                        "label": "Full_address",
-                        "name": "full_address",
-                        "aria-label": "",
-                        "type": "text",
-                        "instructions": "",
-                        "required": 0,
-                        "conditional_logic": 0,
-                        "wrapper": {
-                            "width": "33",
-                            "class": "",
-                            "id": ""
-                        },
-                        "default_value": "",
-                        "maxlength": "",
-                        "placeholder": "",
-                        "prepend": "",
-                        "append": ""
-                    },
-                    {
-                        "key": "field_wbru6z0hqwt3o",
-                        "label": "Google url",
-                        "name": "google_url",
+                        "label": "Address",
+                        "name": "address",
                         "aria-label": "",
                         "type": "text",
                         "instructions": "",
@@ -158,105 +168,20 @@
                         "append": ""
                     },
                     {
-                        "key": "field_ibgrr4yduu5zu",
-                        "label": "Socials",
-                        "name": "socials",
-                        "aria-label": "",
-                        "type": "repeater",
-                        "instructions": "",
-                        "required": 0,
-                        "conditional_logic": 0,
-                        "wrapper": {
-                            "width": "",
-                            "class": "",
-                            "id": ""
-                        },
-                        "layout": "block",
-                        "pagination": 0,
-                        "min": 0,
-                        "max": 0,
-                        "collapsed": "",
-                        "button_label": "Add Row",
-                        "rows_per_page": 20,
-                        "sub_fields": [
-                            {
-                                "key": "field_kfmaks9fbko4u",
-                                "label": "Icon",
-                                "name": "icon",
-                                "aria-label": "",
-                                "type": "textarea",
-                                "instructions": "",
-                                "required": 0,
-                                "conditional_logic": 0,
-                                "wrapper": {
-                                    "width": "30",
-                                    "class": "",
-                                    "id": ""
-                                },
-                                "default_value": "",
-                                "maxlength": "",
-                                "rows": "",
-                                "placeholder": "",
-                                "new_lines": "",
-                                "parent_repeater": "field_ibgrr4yduu5zu"
-                            },
-                            {
-                                "key": "field_ebqui2m8ectc1",
-                                "label": "Url",
-                                "name": "url",
-                                "aria-label": "",
-                                "type": "text",
-                                "instructions": "",
-                                "required": 0,
-                                "conditional_logic": 0,
-                                "wrapper": {
-                                    "width": "70",
-                                    "class": "",
-                                    "id": ""
-                                },
-                                "default_value": "",
-                                "maxlength": "",
-                                "placeholder": "",
-                                "prepend": "",
-                                "append": "",
-                                "parent_repeater": "field_ibgrr4yduu5zu"
-                            }
-                        ]
-                    },
-                    {
-                        "key": "field_66d6bd834a04d",
-                        "label": "Form title",
-                        "name": "form_title",
+                        "key": "field_dgoszugiuzhq3",
+                        "label": "Adress Url",
+                        "name": "adress_url",
                         "aria-label": "",
                         "type": "text",
                         "instructions": "",
-                        "required": 0,
+                        "required": false,
                         "conditional_logic": 0,
                         "wrapper": {
-                            "width": "30",
+                            "width": 100,
                             "class": "",
                             "id": ""
                         },
-                        "default_value": "",
-                        "maxlength": "",
-                        "placeholder": "",
-                        "prepend": "",
-                        "append": ""
-                    },
-                    {
-                        "key": "field_vn0puu2fxtihi",
-                        "label": "Form text",
-                        "name": "form_text",
-                        "aria-label": "",
-                        "type": "text",
-                        "instructions": "",
-                        "required": 0,
-                        "conditional_logic": 0,
-                        "wrapper": {
-                            "width": "70",
-                            "class": "",
-                            "id": ""
-                        },
+                        "message": "",
                         "default_value": "",
                         "maxlength": "",
                         "placeholder": "",

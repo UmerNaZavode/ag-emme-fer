@@ -1,0 +1,33 @@
+.footer-top {
+  &__list {
+    display: flex;
+    gap: 9.6rem;
+    /* justify-content: space-between; */
+    padding-block: 14rem 6.4rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    width: 41.6rem;
+    gap: 4.8rem;
+  }
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  &__label {
+    font-size: 1.3rem;
+    font-weight: 400;
+    letter-spacing: -0.026rem;
+    opacity: 0.8;
+    color: #0d0d0d;
+  }
+  &__link {
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: -0.04rem;
+    color: #0d0d0d;
+  }
+}
