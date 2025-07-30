@@ -3,6 +3,16 @@
     display: flex;
     justify-content: space-between;
     padding-block: 3.2rem 14rem;
+
+    @media screen and (max-width: 768px) {
+      flex-direction: column-reverse;
+      gap: 4rem;
+      padding-block: 3.2rem 10rem;
+    }
+
+    @media screen and (max-width: 576px) {
+      padding-block: 3.2rem 8rem;
+    }
   }
   &__left {
     display: flex;

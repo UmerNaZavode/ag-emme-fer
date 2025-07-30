@@ -5,12 +5,34 @@
     /* justify-content: space-between; */
     padding-block: 14rem 6.4rem;
     border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+
+    @media screen and (max-width: 768px) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-content: space-between;
+      column-gap: 5rem;
+      padding-block: 10rem 5.4rem;
+    }
+
+    @media screen and (max-width: 576px) {
+      grid-template-columns: 1fr;
+      padding-block: 8rem 4.4rem;
+    }
+
+    @media screen and (max-width: 576px) {
+      gap: 3rem;
+    }
   }
   &__item {
     display: flex;
     flex-direction: column;
     width: 41.6rem;
     gap: 4.8rem;
+
+    @media screen and (max-width: 768px) {
+      width: auto;
+      gap: 3rem;
+    }
   }
   &__inner {
     display: flex;
