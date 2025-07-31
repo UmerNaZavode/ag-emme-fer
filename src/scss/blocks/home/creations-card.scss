@@ -127,9 +127,10 @@
     position: relative;
     width: 5.6rem;
     height: 4.2rem;
+    margin-right: 0.7rem;
 
     span {
-      transform: skew(-25deg);
+      transform: skew(-18deg);
 
       &::before,
       &::after {
@@ -153,6 +154,11 @@
     }
   }
 
+  &__button--alt {
+    margin-bottom: 2.4rem;
+    margin-left: 3.4rem;
+  }
+
   &__description {
     position: relative;
     display: flex;
@@ -165,7 +171,7 @@
     transition: transform 1s;
     flex: 1;
     flex-direction: column;
-    gap: 2rem;
+    gap: 2.3rem;
     letter-spacing: -0.032rem;
     line-height: 170%;
     transform-origin: bottom;
@@ -173,10 +179,5 @@
 
   &__footer {
     background: white;
-  }
-
-  &__button--alt {
-    margin-bottom: 2.4rem;
-    margin-left: 3.4rem;
   }
 }
