@@ -1,7 +1,6 @@
 .main-footer {
   &__wrap {
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 6.4rem;
     padding-block: 2.9rem 14rem;
@@ -14,12 +13,14 @@
 
     @media screen and (max-width: 576px) {
       padding-block: 3.2rem 8rem;
+      align-items: start;
     }
   }
 
   &__left {
     display: flex;
-    width: 96rem;
+    width: 100%;
+    max-width: 96rem;
     font-size: 1.3rem;
     font-weight: 300;
     color: #0d0d0d;
@@ -51,6 +52,11 @@
 
     li {
       width: 17.6rem;
+
+      @media screen and (max-width: 768px) {
+        width: 100%;
+        max-width: 17.6rem;
+      }
 
       a {
         font-size: 1.3rem;
