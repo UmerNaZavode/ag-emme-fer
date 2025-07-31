@@ -41,7 +41,7 @@
 
   &__content {
     display: flex;
-    gap: 9.6rem;
+    gap: 9.2rem;
   }
 
   &__left,
@@ -54,7 +54,7 @@
     justify-content: end;
     align-items: start;
     flex-direction: column;
-    gap: 3.8rem;
+    gap: 3.4rem;
   }
 
   &__desription {
@@ -62,9 +62,12 @@
     font-size: 1.6rem;
     font-weight: 400;
     flex-direction: column;
-    gap: 3rem;
+    gap: 2.8rem;
     letter-spacing: -0.032rem;
-    line-height: 170%;
+
+    p {
+      line-height: 166%;
+    }
 
     strong {
       color: #cfcfcf;
@@ -72,6 +75,7 @@
   }
 
   &__button {
-    margin-left: 1rem;
+    margin-left: 0.6rem;
+    padding: 1rem 2.4rem;
   }
 }
