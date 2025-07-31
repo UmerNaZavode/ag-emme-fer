@@ -51,11 +51,21 @@
     align-items: center;
     width: 6rem;
     height: 4.2rem;
-
-    /* padding: 1.2rem 3rem; */
     background: var(--accent);
     border: 0.05rem solid var(--accent);
     transform: rotate(90deg) skew(18deg);
+
+    @media screen and (max-width: 1200px) {
+      right: 16rem;
+    }
+
+    @media screen and (max-width: 992px) {
+      right: 9rem;
+    }
+
+    @media screen and (max-width: 768px) {
+      right: 4rem;
+    }
 
     span {
       position: relative;
