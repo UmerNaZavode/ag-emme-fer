@@ -33,7 +33,7 @@
     color: #fff;
     line-height: 120%;
     letter-spacing: -0.128rem;
-    margin-top: 3.2rem;
+    margin-top: 3.4rem;
     text-transform: uppercase;
 
     @media screen and (max-width: 576px) {
@@ -44,7 +44,7 @@
 
   &__button {
     position: absolute;
-    right: 24rem;
+    right: 23rem;
     bottom: 0;
     display: inline-flex;
     justify-content: center;
@@ -55,14 +55,14 @@
     /* padding: 1.2rem 3rem; */
     background: var(--accent);
     border: 0.05rem solid var(--accent);
-    transform: rotate(90deg) skew(25deg);
+    transform: rotate(90deg) skew(18deg);
 
     span {
       position: relative;
       display: inline-flex;
       justify-content: center;
       align-items: center;
-      transform: skew(-25deg);
+      transform: skew(-18deg);
     }
   }
 }
