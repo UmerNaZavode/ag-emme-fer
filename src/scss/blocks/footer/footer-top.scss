@@ -3,9 +3,7 @@
     display: flex;
     border-bottom: 1px solid rgb(0, 0, 0, 15%);
     gap: 9.6rem;
-
-    /* justify-content: space-between; */
-    padding-block: 14rem 6.4rem;
+    padding-block: 13.7rem 6.4rem;
 
     @media screen and (max-width: 768px) {
       display: grid;
@@ -29,7 +27,7 @@
     display: flex;
     width: 41.6rem;
     flex-direction: column;
-    gap: 4.8rem;
+    gap: 5.2rem;
 
     @media screen and (max-width: 768px) {
       width: auto;
