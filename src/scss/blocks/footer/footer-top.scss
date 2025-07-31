@@ -1,16 +1,17 @@
 .footer-top {
   &__list {
     display: flex;
+    border-bottom: 1px solid rgb(0, 0, 0, 15%);
     gap: 9.6rem;
+
     /* justify-content: space-between; */
     padding-block: 14rem 6.4rem;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 
     @media screen and (max-width: 768px) {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
       justify-content: space-between;
       column-gap: 5rem;
+      grid-template-columns: repeat(2, 1fr);
       padding-block: 10rem 5.4rem;
     }
 
@@ -23,10 +24,11 @@
       gap: 3rem;
     }
   }
+
   &__item {
     display: flex;
-    flex-direction: column;
     width: 41.6rem;
+    flex-direction: column;
     gap: 4.8rem;
 
     @media screen and (max-width: 768px) {
@@ -34,22 +36,25 @@
       gap: 3rem;
     }
   }
+
   &__inner {
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
   }
+
   &__label {
     font-size: 1.3rem;
     font-weight: 400;
-    letter-spacing: -0.026rem;
-    opacity: 0.8;
     color: #0d0d0d;
+    opacity: 0.8;
+    letter-spacing: -0.026rem;
   }
+
   &__link {
     font-size: 2rem;
     font-weight: 600;
-    letter-spacing: -0.04rem;
     color: #0d0d0d;
+    letter-spacing: -0.04rem;
   }
 }

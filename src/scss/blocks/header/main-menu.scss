@@ -30,12 +30,10 @@
 
   li {
     display: flex;
-    padding: 1.2rem 2.8rem;
     justify-content: center;
     align-items: center;
-  }
+    padding: 1.2rem 2.8rem;
 
-  li {
     &.current-menu-item {
       a {
         color: var(--accent);
@@ -48,14 +46,14 @@
     display: block;
     font-size: 1.2rem;
     font-weight: 700;
-    line-height: 1.8rem;
-    letter-spacing: 0.18rem;
-    text-transform: uppercase;
     color: #fff;
     transition: all 0.4s;
+    letter-spacing: 0.18rem;
+    line-height: 1.8rem;
+    text-transform: uppercase;
 
     &:hover {
-        color: var(--accent);
+      color: var(--accent);
     }
   }
 }

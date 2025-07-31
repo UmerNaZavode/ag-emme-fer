@@ -8,8 +8,8 @@
     top: 0;
     left: 0;
     display: block;
-    z-index: -1;
     height: 100%;
+    z-index: -1;
   }
 
   &__wrapper {
@@ -21,9 +21,9 @@
       gap: 3rem;
     }
     @media screen and (max-width: 768px) {
+      width: 100%;
       flex-direction: column;
       padding-top: 8rem;
-      width: 100%;
     }
     @media screen and (max-width: 576px) {
       padding-top: 7rem;
