@@ -94,8 +94,8 @@
     }
 
     .btn {
-      margin-right: 0.5rem;
       padding: 1.1rem 1.6rem;
+      margin-right: 0.5rem;
 
       @media screen and (max-width: 576px) {
         margin-left: 5rem;
@@ -121,9 +121,9 @@
       position: relative;
       display: block;
       cursor: pointer;
+      letter-spacing: -0.022rem;
       padding-left: 4rem;
       padding-right: 3rem;
-      letter-spacing: -0.022rem;
 
       @media screen and (max-width: 992px) {
         text-align: left;

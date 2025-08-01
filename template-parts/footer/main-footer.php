@@ -6,10 +6,7 @@ $seccond_phone = $footer['seccond_phone'];
 $email = $footer['email'];
 $address = $footer['address'];
 $hours = $footer['hours'];
-$copyright = $footer['copyright'];
 $copyright_phone = $footer['copyright_phone'];
-$chosen = $footer['chosen'];
-$partner = $footer['partner'];
 // $adress_url = $footer['adress_url'];
 // $full_company_name = $footer['full_company_name'];
 // $short_company_name = $footer['short_company_name'];
@@ -56,10 +53,10 @@ $partner_url = $footer['partner_url'];
   <div class="main-footer__wrap container">
     <div class="main-footer__left">
       <div class="main-footer__copyright">
-        <?php echo $copyright; ?><a target="_blank" href="tel:<?php echo clear_phone($copyright_phone); ?>"><?php echo $copyright_phone; ?></a>
+        Copyright © 2025 Fabbro Emme Fer di Mirco Ravaziol e Mauro Antonello snc. Partita Iva: <a target="_blank" href="tel:<?php echo clear_phone($copyright_phone); ?>"><?php echo $copyright_phone; ?></a>
       </div>
       <div class="main-footer__partner">
-        <?php echo $chosen; ?><a target="_blank" href="<?php echo $partner_url; ?>"><?php echo $partner; ?></a>
+        Emme Fer ha scelto <a target="_blank" href="<?php echo $partner_url; ?>">Altuofianco</a>
       </div>
     </div>
     <div class="main-footer__right">

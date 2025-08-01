@@ -189,66 +189,9 @@
                         "append": ""
                     },
                     {
-                        "key": "field_fof63ckzc9kut",
-                        "label": "Copyright",
-                        "name": "copyright",
-                        "aria-label": "",
-                        "type": "text",
-                        "instructions": "",
-                        "required": true,
-                        "conditional_logic": 0,
-                        "wrapper": {
-                            "width": "50",
-                            "class": "",
-                            "id": ""
-                        },
-                        "message": "",
-                        "default_value": "",
-                        "maxlength": "",
-                        "placeholder": "",
-                        "prepend": "",
-                        "append": ""
-                    },
-                    {
                         "key": "field_fyc0zgw0odrok",
                         "label": "Copyright Phone",
                         "name": "copyright_phone",
-                        "aria-label": "",
-                        "type": "text",
-                        "instructions": "",
-                        "required": true,
-                        "conditional_logic": 0,
-                        "wrapper": {
-                            "width": "50",
-                            "class": "",
-                            "id": ""
-                        },
-                        "message": "",
-                        "default_value": "",
-                        "maxlength": "",
-                        "placeholder": "",
-                        "prepend": "",
-                        "append": ""
-                    },
-                    {
-                        "key": "field_rr4yd7swcdrjx",
-                        "label": "Chosen",
-                        "name": "chosen",
-                        "type": "text",
-                        "instructions": "",
-                        "required": true,
-                        "conditional_logic": 0,
-                        "wrapper": {
-                            "width": 50,
-                            "class": "",
-                            "id": ""
-                        },
-                        "message": ""
-                    },
-                    {
-                        "key": "field_xjwdvcclg3z2o",
-                        "label": "Partner",
-                        "name": "partner",
                         "aria-label": "",
                         "type": "text",
                         "instructions": "",

@@ -3,7 +3,7 @@ $creations_card = get_field('creations_card');
 $items = $creations_card['items'];
 ?>
 <div class="creations-card container">
-  <?php foreach ($items as $key => $item) : ?>
+  <?php foreach ($items as $k => $item) : ?>
     <?php
     $image = $item['image'];
     $title = $item['title'];
@@ -12,7 +12,7 @@ $items = $creations_card['items'];
     $button_text = $item['button_text'];
     $button_url = $item['button_url'];
     ?>
-    <div class="creations-card__inner <?php //echo $key === 0 ? 'active' : null; ?>">
+    <div class="creations-card__inner <?php echo $k === 0 ? 'active' : null; ?>">
       <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
       <div class="creations-card__wrapper">
         <header class="creations-card__header">
