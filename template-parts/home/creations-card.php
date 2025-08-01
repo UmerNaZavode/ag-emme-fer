@@ -12,7 +12,7 @@ $items = $creations_card['items'];
     $button_text = $item['button_text'];
     $button_url = $item['button_url'];
     ?>
-    <div class="creations-card__inner <?php echo $k === 0 ? 'active' : null; ?>">
+    <div class="creations-card__inner <?php //echo $k === 0 ? 'active' : null; ?>">
       <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
       <div class="creations-card__wrapper">
         <header class="creations-card__header">
