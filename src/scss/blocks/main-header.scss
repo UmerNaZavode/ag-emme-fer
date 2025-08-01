@@ -33,7 +33,7 @@
   @media screen and (max-width: 992px) {
     height: 8rem;
   }
-
+  
   &.active {
     position: fixed;
     top: 0;
@@ -56,6 +56,10 @@
     .main-header__cart-icon {
       top: 1rem;
     }
+  }
+
+  &.main-header--dark {
+    background: rgba(0, 0, 0, .6);
   }
 
   &__button.btn {

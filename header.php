@@ -16,8 +16,9 @@
     $logo = $header['logo']['url'];
     $button_text = $header['button_text'];
     $button_url = $header['button_url'];
+    $header_class = !is_front_page() ? 'main-header--dark' : null;
     ?>
-    <header class="main-header">
+    <header class="main-header <?php echo $header_class; ?>">
       <div class="logo">
         <?php if ($logo) : ?>
           <?php if (is_front_page()) : ?>
