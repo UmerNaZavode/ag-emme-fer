@@ -25,11 +25,11 @@
     max-height: 56rem;
     overflow: hidden;
 
-    @media screen and (max-width: 576px) {
-      &.active {
-        overflow-y: auto;
-      }
-    }
+    /* @media screen and (max-width: 576px) { */
+    /*   &.active { */
+    /*     overflow-y: auto; */
+    /*   } */
+    /* } */
 
     &::before {
       content: '';
@@ -47,7 +47,7 @@
 
     &.active {
       .creations-card {
-        &__description {
+        &__content {
           transform: translateY(0);
         }
 
@@ -64,10 +64,7 @@
         }
 
         &__header {
-          position: sticky;
-          top: 0;
           border-bottom: 1px solid #e9e9e9;
-          z-index: 10;
 
           &::before {
             transform: translateY(0);
@@ -91,20 +88,20 @@
     height: 100%;
     transition: all 1s;
     flex-direction: column;
-    translate: 0 84%;
+    translate: 0 calc(100% - 9rem);
 
-    @media screen and (max-width: 1200px) {
-      translate: 0 47rem;
-    }
+    /* @media screen and (max-width: 1200px) { */
+    /*   translate: 0 47rem; */
+    /* } */
     @media screen and (max-width: 576px) {
-      translate: 0 84%;
+      translate: 0 calc(100% - 7rem);
     }
-    @media screen and (max-width: 450px) {
-      translate: 0 80%;
-    }
-    @media screen and (max-width: 380px) {
-      translate: 0 78%;
-    }
+    /* @media screen and (max-width: 450px) { */
+    /*   translate: 0 80%; */
+    /* } */
+    /* @media screen and (max-width: 380px) { */
+    /*   translate: 0 78%; */
+    /* } */
   }
 
   &__header {
@@ -118,7 +115,7 @@
     border-top: 1px solid #e9e9e9;
 
     @media screen and (max-width: 576px) {
-      padding: 3.7rem 2.4rem;
+      height: 7rem;
     }
 
     &::before {
@@ -188,6 +185,21 @@
     }
   }
 
+  &__content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    background: white;
+    transform: translateY(40%);
+    transition: transform 1s;
+    transform-origin: bottom;
+    @media screen and (max-width: 576px) {
+      overflow-y: auto;
+    }
+  }
+
   &__description {
     position: relative;
     display: flex;
@@ -195,15 +207,10 @@
     font-size: 1.6rem;
     font-weight: 400;
     color: #0d0d0d;
-    background: white;
-    transform: translateY(40%);
-    transition: transform 1s;
-    flex: 1;
     flex-direction: column;
     gap: 2rem;
     letter-spacing: -0.032rem;
     line-height: 170%;
-    transform-origin: bottom;
 
     @media screen and (max-width: 576px) {
       gap: 1rem;
@@ -213,9 +220,5 @@
   &__button--alt {
     margin-bottom: 2.4rem;
     margin-left: 3.4rem;
-  }
-
-  &__footer {
-    background: white;
   }
 }

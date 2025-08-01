@@ -58,8 +58,11 @@
     }
   }
 
-  &__button {
+  &__button.btn {
     margin-right: 0.6rem;
+    @media screen and (max-width: 576px) {
+      display: none;
+    }
   }
 
   &__cart-icon {
