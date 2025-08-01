@@ -26,7 +26,9 @@
     overflow: hidden;
 
     @media screen and (max-width: 576px) {
-      overflow-y: auto;
+      &.active {
+        overflow-y: auto;
+      }
     }
 
     &::before {
@@ -62,7 +64,10 @@
         }
 
         &__header {
+          position: sticky;
+          top: 0;
           border-bottom: 1px solid #e9e9e9;
+          z-index: 10;
 
           &::before {
             transform: translateY(0);
@@ -209,7 +214,7 @@
     margin-bottom: 2.4rem;
     margin-left: 3.4rem;
   }
-  
+
   &__footer {
     background: white;
   }
