@@ -6,11 +6,10 @@ $seccond_phone = $footer['seccond_phone'];
 $email = $footer['email'];
 $address = $footer['address'];
 $hours = $footer['hours'];
-$copyright_phone = $footer['copyright_phone'];
-// $adress_url = $footer['adress_url'];
-// $full_company_name = $footer['full_company_name'];
-// $short_company_name = $footer['short_company_name'];
-// $vat = $footer['vat'];
+$adress_url = $footer['adress_url'];
+$full_company_name = $footer['full_company_name'];
+$short_company_name = $footer['short_company_name'];
+$vat = $footer['vat'];
 $partner_url = $footer['partner_url'];
 // $partner_logo = $footer['partner_logo'];
 ?>
@@ -22,7 +21,7 @@ $partner_url = $footer['partner_url'];
           <img width="189" height="42" src="<?php echo $logo['url']; ?>" alt="<?php echo $logo['alt']; ?>" />
           <div class="footer-top__inner">
             <div class="footer-top__label">Indirezzo</div>
-            <a target="_blank" class="footer-top__link"><?php echo $address; ?></a>
+            <a href="<?php echo $adress_url; ?>" target="_blank" class="footer-top__link"><?php echo $address; ?></a>
           </div>
         </li>
         <li class="footer-top__item">
@@ -53,10 +52,10 @@ $partner_url = $footer['partner_url'];
   <div class="main-footer__wrap container">
     <div class="main-footer__left">
       <div class="main-footer__copyright">
-        Copyright © 2025 Fabbro Emme Fer di Mirco Ravaziol e Mauro Antonello snc. Partita Iva: <a target="_blank" href="tel:<?php echo clear_phone($copyright_phone); ?>"><?php echo $copyright_phone; ?></a>
+        Copyright &copy; <?php echo date('Y') ?> <?php echo $full_company_name; ?> Partita Iva: <?php echo $vat; ?>
       </div>
       <div class="main-footer__partner">
-        Emme Fer ha scelto <a target="_blank" href="<?php echo $partner_url; ?>">Altuofianco</a>
+        <?php echo $short_company_name; ?> ha scelto <a target="_blank" href="<?php echo $partner_url; ?>">Altuofianco</a>
       </div>
     </div>
     <div class="main-footer__right">
